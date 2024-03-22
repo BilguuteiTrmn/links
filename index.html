@@ -24,6 +24,18 @@
 
     .name {
       color: #fffffe;
+      display: flex;
+      justify-content: center;
+    }
+
+    .banner {
+      display: flex;
+      justify-content: center;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: space-around;
     }
 
     .social-icons a {
@@ -41,6 +53,7 @@
       color: #001e1d;
       text-decoration: none;
       text-align: center;
+      flex-grow: 1;
     }
 
     .items {
@@ -48,6 +61,7 @@
       flex-direction: column;
       gap: 30px;
       max-width: 640px;
+      flex-grow: 1;
     }
 
     * {
@@ -55,7 +69,7 @@
     }
   </style>
 
-  <div class=""banner>
+  <div class="banner">
     <img src="profile-pic.jpg" alt="Bilguutei" class="banner-image">
   </div>
 </head>
